@@ -1,0 +1,53 @@
+.header-container{
+    text-align: left;
+    height: 50px;
+    background-color: #334250;
+}
+
+.logo{
+    height: 100%;
+}
+
+.logo img{
+    height: 80%;
+}
+
+.album{
+    flex-basis: calc((100% / 5) - 20px);
+    background-color: #334250;
+    margin: 10px;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+}
+
+h2 + span{
+    color: rgb(182, 182, 182);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'montserrat',sans-serif;
+    background-color: #1A2934;
+}
+
+button{
+    font-weight: 700;
+}
